@@ -1,0 +1,57 @@
+@media (max-width: 1366px) and (orientation: landscape) {
+  .main .witcher img {
+    left: 0; }
+  .main .witcher img:first-of-type {
+    left: 5%; }
+  .main .witcher div {
+    left: 0%; }
+  .main .content {
+    margin: 0 auto; } }
+
+@media (max-width: 1024px) and (orientation: landscape) {
+  .main .content .percent {
+    font-size: 150px;
+    text-align: center;
+    line-height: 150px; }
+  .main .content .bonus {
+    font-size: 40px;
+    text-align: center;
+    line-height: 40px;
+    margin-bottom: 30px; }
+  .main .content .promocode {
+    margin-bottom: 40px; }
+    .main .content .promocode__word {
+      font-size: 35px; } }
+
+@media (max-width: 824px) and (orientation: landscape) {
+  .main .witcher {
+    width: 45%; }
+  .main .content .percent {
+    font-size: 75px;
+    text-align: center;
+    line-height: 75px;
+    margin-bottom: 10px; }
+  .main .content .bonus {
+    font-size: 30px;
+    line-height: 30px;
+    margin-bottom: 20px; }
+  .main .content .promocode {
+    margin-bottom: 40px;
+    width: 240px;
+    height: 50px;
+    margin-bottom: 20px; }
+    .main .content .promocode__word {
+      font-size: 20px;
+      height: 50px;
+      line-height: 50px;
+      width: 55%; }
+    .main .content .promocode__copy {
+      font-size: 15px;
+      line-height: 15px; }
+  .main .content a .play_now {
+    width: 180px;
+    height: 50px;
+    -webkit-border-radius: 25px;
+            border-radius: 25px;
+    font-weight: bold;
+    line-height: 50px; } }

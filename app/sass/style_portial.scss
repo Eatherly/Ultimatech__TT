@@ -1,0 +1,271 @@
+@media (max-width:1024px) and (orientation: portrait) {
+  .main {
+    width: 100%;
+    max-width: 100%;
+    flex-direction: column;
+    height: 100vh;
+    position: fixed;
+
+    .witcher {
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+
+      img {
+        height: 65%;
+        left: 21%;
+      }
+    }
+
+    .content {
+      height: 92vh;
+      width: 100vw;
+      z-index: 5;
+      justify-content: left;
+      position: absolute;
+
+      .percent {
+        font-size: 125px;
+        line-height: 125px;
+        text-align: center;
+        margin-top: 35px;
+
+      }
+
+      .bonus {
+        font-size: 50px;
+        line-height: 50px;
+        text-align: center;
+        margin-bottom: 30px;
+
+      }
+
+
+      .promocode {
+        margin-bottom: 30px;
+        width: 350px;
+        height: 70px;
+        border-radius: 35px;
+
+        &__word {
+          font-size: 30px;
+          height: 70px;
+          line-height: 70px;
+
+          width: 55%;
+        }
+
+        &__copy {}
+      }
+
+
+
+      a {
+
+        display: block;
+        width: 100%;
+
+
+
+
+
+        .play_now {
+          width: 240px;
+          height: 60px;
+          border-radius: 30px;
+          font-weight: bold;
+          line-height: 60px;
+
+          margin: 0 auto;
+
+
+        }
+      }
+
+    }
+  }
+
+}
+
+@media (max-width:1000px) and (orientation: portrait) {
+  .main {
+
+    .witcher {
+
+
+      img {
+        height: 60%;
+        left: 23%;
+      }
+    }
+  }
+}
+
+
+@media (max-width:767px) and (orientation: portrait) {
+  .main {
+    width: 100%;
+    max-width: 100%;
+    flex-direction: column;
+    height: 100vh;
+    position: fixed;
+
+    .witcher {
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+
+      img {
+        height: 65%;
+        left: 5%;
+      }
+    }
+
+    .content {
+      height: 92vh;
+      width: 100vw;
+      z-index: 5;
+      justify-content: left;
+      position: absolute;
+
+      .percent {
+        font-size: 75px;
+        line-height: 75px;
+        text-align: center;
+        margin-top: 30px;
+      }
+
+      .bonus {
+        font-size: 20px;
+        line-height: 20px;
+        text-align: center;
+        margin-bottom: 20px;
+      }
+
+
+      .promocode {
+        margin-bottom: 40px;
+        width: 240px;
+        height: 50px;
+        margin-bottom: 20px;
+
+        &__word {
+          font-size: 20px;
+          height: 50px;
+          line-height: 50px;
+          width: 55%;
+        }
+
+        &__copy {
+          font-size: 15px;
+          line-height: 15px;
+        }
+      }
+
+
+
+      a {
+
+        display: block;
+        width: 100%;
+
+
+
+
+
+        .play_now {
+          width: 180px;
+          height: 50px;
+          border-radius: 25px;
+          font-weight: bold;
+          line-height: 50px;
+
+          margin: 0 auto;
+
+
+        }
+      }
+
+    }
+  }
+
+}
+
+
+@media (max-width:415px) and (orientation: portrait) {
+  .main {
+    .witcher {
+      img {
+        height: 70%;
+        left: 9%;
+      }
+    }
+
+    .content {
+      .percent {
+        font-size: 50px;
+        line-height: 50px;
+      }
+
+      .bonus,
+      .promocode {
+        margin-bottom: 10px;
+      }
+
+      .promocode {
+        width: 200px;
+        height: 40px;
+        margin-bottom: 10px;
+        border-radius: 20px;
+
+        &__word {
+          font-size: 15px;
+          height: 40px;
+          line-height: 40px;
+          width: 55%;
+        }
+
+        &__copy {
+          font-size: 14px;
+          line-height: 15px;
+        }
+      }
+
+      a .play_now {
+        width: 160px;
+        height: 40px;
+        border-radius: 20px;
+        line-height: 40px;
+        font-size: 15px;
+      }
+
+    }
+  }
+}
+
+@media (max-width:375px) and (orientation: portrait) {
+  .main {
+    .witcher {
+      img {
+        height: 70%;
+        left: 9%;
+      }
+    }
+
+    .content {
+      .percent {
+        margin-top: 15px;
+        font-size: 40px;
+        line-height: 40px;
+      }
+
+      a .play_now {
+        width: 140px;
+        height: 30px;
+        border-radius: 20px;
+        line-height: 30px;
+        font-size: 15px;
+      }
+    }
+  }
+}

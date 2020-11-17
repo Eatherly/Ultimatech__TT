@@ -1,0 +1,79 @@
+@media (max-width: 1024px) and (orientation: portrait) {
+  .main {
+    width: 100%;
+    max-width: 100%;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    height: 100vh;
+    position: fixed; }
+    .main .witcher {
+      position: fixed;
+      bottom: 0;
+      width: 100%; }
+      .main .witcher img {
+        height: 65%;
+        left: 5%; }
+    .main .content {
+      height: 92vh;
+      width: 100vw;
+      z-index: 5;
+      -webkit-box-pack: left;
+      -webkit-justify-content: left;
+          -ms-flex-pack: left;
+              justify-content: left;
+      position: absolute; }
+      .main .content .percent {
+        font-size: 75px;
+        line-height: 75px;
+        text-align: center;
+        margin-top: 30px; }
+      .main .content .bonus {
+        font-size: 20px;
+        line-height: 20px;
+        text-align: center;
+        margin-bottom: 20px; }
+      .main .content .promocode {
+        margin-bottom: 40px;
+        width: 240px;
+        height: 50px;
+        margin-bottom: 20px; }
+        .main .content .promocode__word {
+          font-size: 20px;
+          height: 50px;
+          line-height: 50px;
+          width: 55%; }
+        .main .content .promocode__copy {
+          font-size: 15px;
+          line-height: 15px; }
+      .main .content a {
+        display: block;
+        width: 100%; }
+        .main .content a .play_now {
+          width: 180px;
+          height: 50px;
+          -webkit-border-radius: 25px;
+                  border-radius: 25px;
+          font-weight: bold;
+          line-height: 50px;
+          margin: 0 auto; } }
+
+@media (max-width: 415px) and (orientation: portrait) {
+  .main .witcher img {
+    height: 60%;
+    left: 15%; }
+  .main .content .percent {
+    font-size: 50px;
+    line-height: 50px; }
+  .main .content .bonus,
+  .main .content .promocode {
+    margin-bottom: 10px; }
+  .main .content a .play_now {
+    width: 160px;
+    height: 40px;
+    -webkit-border-radius: 20px;
+            border-radius: 20px;
+    line-height: 40px;
+    font-size: 15px; } }
